@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+.body{
+    display: flex;
+    height: 99vh;
+}
+.picture{
+    width: 40%;
+    background-image: url("boxing.jpg");
+    background-position:center;
+    background-size: contain;
+    background-repeat:repeat;
+}
+.header{
+    color: red;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    height: 10vh;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.first{
+    background-color: #383838;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2vh;
+    font-size: 2vh;
+    font-weight: bolder;
+    padding: 2vh;
+}
+.second{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    background-color: #383840;
+    height: 33vh;
+    padding: 2vh;
+}
+.third{
+    background-color: #383838;
+    height: 33vh;
+    padding: 2vh;
+    font-size: 24px;
+}
+.title{
+    width: 100%;
+}
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+    float: left;
+    height: 70px;
+    margin: 5px;
+    text-transform: uppercase;
+    gap: 10px;
+    font-size: larger;
+}
+.thor{
+    height: 8vh;
+}
+button{
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.href{
+    color: red;
+}
+button:hover{
+    background-color: red;
+    color: black;
+}
+input{
+    width: 250px;
+}
